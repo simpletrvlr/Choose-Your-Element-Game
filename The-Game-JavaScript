@@ -1,0 +1,51 @@
+var user = prompt ("Which element do you choose? [EARTH, FIRE, WATER, AIR]").toUpperCase();
+
+switch (user) {
+    case 'EARTH' : 
+        var earthAggressive = prompt ("Would you consider yourself an aggressive fighter? Yes or no?").toUpperCase();
+        var earthPassive = prompt ("Would you consider yourself a passive fighter? Yes or no?").toUpperCase();
+  
+          if (earthAggressive === 'YES' && earthPassive === 'YES') {
+            console.log("Well you're just a passive aggressive rock-throwing motherfucker aren't you?");
+    }
+          else {
+            console.log ("You must like rocks"); }
+    break;
+    
+    case 'FIRE' : 
+      var fireAggressive = prompt ("Would you consider yourself an aggressive fighter? Yes or no?").toUpperCase();
+      var firePassive = prompt ("Would you consider yourself a passive fighter? Yes or no?").toUpperCase(); 
+    
+        if (fireAggressive === 'YES' || firePassive === 'YES') {
+          console.log ("Well you're either Passive or Aggresive, so just shoot fire everywhere when you're in a fight.")
+        }
+        else {
+          console.log ("You must like matches") }
+    break ; 
+        
+    case 'WATER' : 
+      var waterAggressive = prompt ("Would you consider yourself an aggressive fighter? Yes or no?").toUpperCase();
+      var waterPassive = prompt ("Would you consider yourself a passive fighter? Yes or no?").toUpperCase();
+    
+        if (waterAggressive === 'YES' || waterPassive === 'YES') {
+          console.log("Seems like you go with the flow anyways so wait for your opponent to make a move and then counter attack with the opposite energy.");
+        }
+        else {
+          console.log ("You must like fishes"); }
+    break ;
+            
+    case 'AIR' : 
+      var airAggressive = prompt ("Would you consider yourself an aggressive fighter? Yes or no?").toUpperCase();
+      var airPassive = prompt ("Would you consider yourself a passive fighter? Yes or no?").toUpperCase();
+    
+        if (airAggressive === 'YES' && airPassive === 'YES') {
+          console.log("Well you're a passive aggressive airbender, kinda ironic since most airbenders are peaceful monks."); 
+        }
+        else {
+          console.log ("You must want to fly") ; }
+            break ; 
+            
+    default:
+      console.log ("....That's not an element numbnuts..."); 
+            
+};
