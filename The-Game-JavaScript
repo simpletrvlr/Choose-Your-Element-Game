@@ -6,7 +6,7 @@ switch (user) {
         var earthPassive = prompt ("Would you consider yourself a passive fighter? Yes or no?").toUpperCase();
   
           if (earthAggressive === 'YES' && earthPassive === 'YES') {
-            console.log("Well you're just a passive aggressive rock-throwing motherfucker aren't you?");
+            console.log("Well you're just a passive aggressive rock-throwing muddaflipper aren't you?");
     }
           else {
             console.log ("You must like rocks"); }
